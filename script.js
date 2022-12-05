@@ -40,7 +40,7 @@ function botReply(message) {
 		}
 	});
 
-	if (!replied) createChat("bot", "Maaf, saya tidak mengerti.");
+	if (!replied) createChat("bot", "Maaf, aku rangerti.");
 }
 
 function handleForm(e) {
