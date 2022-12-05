@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: grid;
+	place-items: center;
+	background-color: #c5ff95a3;
+	height: 100vh;
+	font-family: "Poppins", "sans-serif";
+}
+
+.sita{
+    background-color: #79d800d1;;
+    margin-top: -15px;
+    width: 350px;
+    height: 50px;
+    border-radius: 30px;
+}
+
+.bar{
+    margin-left: 70px;
+    margin-top: 13px;
+    list-style-type: none;
+    
+}
+
+.bar li a{
+    color: black;
+    text-decoration: none;
+}
+
+.bar li a:hover{
+    color: white;
+}
+
+
+h1 {
+	margin-bottom: 1rem;
+	text-align: center;
+}
+
+span {
+	font-size: 0.9rem;
+}
+
+.box {
+	width: 380px;
+	height: 600px;
+}
+
+.sita img{
+    display: flex;
+    widht: 40px;
+    height: 40px;
+    border-radius: 100px;
+    margin-top: -32px;
+    margin-left: 10px;
+}
+
+.bot,
+.user {
+	padding: 0.5rem 0.5rem;
+	width: fit-content;
+	border-radius: 0.5rem;
+	background-color: #90b77d;
+	max-width: 200px;
+}
+
+.user {
+	background-color: #42855b;
+	color: white;
+	align-self: end;
+}
+
+.chat-container {
+	border: 2px solid black;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 1rem;
+}
+
+.chat-box {
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	padding: 0.5rem 0.75rem 0.5rem 0;
+	overflow-y: auto;
+}
+
+.input {
+	width: 100%;
+	padding: 0.5rem;
+	accent-color: #42855b;
+	font-family: "Poppins", "sans-serif";
+}
