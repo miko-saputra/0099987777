@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+  <video id="myVideo" controls width="100%" height="600">
+    <source src="/folder/3.mp4" type="video/mp4">
+    <source src="/folder/3.ogg" type="video/ogg">
+    Your browser does not support HTML5 video.
+  </video>
+  <div class="btn">
+    <button onclick="playVid()" type="button">Play Video</button>
+    <button onclick="pauseVid()" type="button">Pause Video</button><br>
+    </div>
+     <div class="btn">
+      <button><a href="4.html">neks</a></button>
+    </div>
+</body>
+  <script>
+    var vid = document.getElementById("myVideo");
+
+    function playVid() {
+      vid.play();
+    }
+</script>
+<style>
+body{
+  background-color: azure;
+}
+.btn{
+  margin: 10px;
+  
+}
+
+.btn button{
+  height: 30px;
+  background-color: lightskyblue;
+  color: white;
+  font-weight: bold;
+}
+
+.btn button:hover{
+  background-color: deepskyblue;
+}
+
+.nek{
+  display: flex;
+  margin-left: 300px;
+  margin-top: -40px;
+}
+
+.nek button{
+  height: 30px;
+  color: white;
+  background-color: orangered;
+  font-weight: bold;
+}
+</style>
+</html>
